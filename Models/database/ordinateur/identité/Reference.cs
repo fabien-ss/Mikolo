@@ -5,7 +5,7 @@ namespace mikolo;
 
 public partial class Reference
 {
-    public string Id { get; set; } = null!;
+    public string? Id { get; set; } = null!;
 
     public string? IdMarque { get; set; }
 

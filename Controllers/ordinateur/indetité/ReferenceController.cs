@@ -11,7 +11,7 @@ namespace mikolo.Controllers
 {
     public class ReferenceController : Controller
     {
-        private readonly MikoloContext _context;
+        private MikoloContext _context;
 
         public ReferenceController(MikoloContext context)
         {
@@ -64,7 +64,7 @@ namespace mikolo.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdMarque"] = new SelectList(_context.Marques, "Id", "Id", reference.IdMarque);
+            ViewData["IdMarque"] = new SelectList(_context.Marques, "Id", "Label", reference.IdMarque);
             return View(reference);
         }
 
@@ -81,7 +81,7 @@ namespace mikolo.Controllers
             {
                 return NotFound();
             }
-            ViewData["IdMarque"] = new SelectList(_context.Marques, "Id", "Id", reference.IdMarque);
+            ViewData["IdMarque"] = new SelectList(_context.Marques, "Id", "Label", reference.IdMarque);
             return View(reference);
         }
 
@@ -117,7 +117,7 @@ namespace mikolo.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdMarque"] = new SelectList(_context.Marques, "Id", "Id", reference.IdMarque);
+            ViewData["IdMarque"] = new SelectList(_context.Marques, "Id", "Label", reference.IdMarque);
             return View(reference);
         }
 

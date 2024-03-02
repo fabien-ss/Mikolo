@@ -5,17 +5,17 @@ namespace mikolo;
 
 public partial class Laptop
 {
-    public string Id { get; set; } = null!;
+    public string? Id { get; set; }
 
-    public string? IdReference { get; set; }
+    public string IdReference { get; set; } = null!;
 
-    public string? IdProcesseur { get; set; }
+    public string IdProcesseur { get; set; } = null!;
 
-    public string? IdRam { get; set; }
+    public string IdRam { get; set; } = null!;
 
-    public string? IdEcran { get; set; }
+    public string IdEcran { get; set; } = null!;
 
-    public string? IdDisqueDur { get; set; }
+    public string IdDisqueDur { get; set; }= null!;
 
     public virtual DisqueDur? IdDisqueDurNavigation { get; set; }
 

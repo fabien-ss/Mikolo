@@ -14,4 +14,17 @@ public partial class Report
     public int Nombre { get; set; }
 
     public virtual Laptop? IdLaptopNavigation { get; set; }
+
+    public Report(int id, string? idLaptop, DateTime dateReport, int nombre)
+    {
+        Id = id;
+        IdLaptop = idLaptop;
+        DateReport = dateReport;
+        Nombre = nombre;
+    }
+
+    public Report()
+    {
+
+    }
 }

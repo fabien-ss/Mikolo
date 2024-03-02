@@ -13,7 +13,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.IdDisqueDurNavigation)
+                @Html.DisplayNameFor(model => model.IdDisqueDurNavigation.Label)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.IdEcranNavigation)
@@ -34,19 +34,19 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.IdDisqueDurNavigation.Id)
+                @Html.DisplayFor(modelItem => item.IdDisqueDurNavigation.Label)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdEcranNavigation.Id)
+                @Html.DisplayFor(modelItem => item.IdEcranNavigation.Label)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdProcesseurNavigation.Id)
+                @Html.DisplayFor(modelItem => item.IdProcesseurNavigation.Label)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdRamNavigation.Id)
+                @Html.DisplayFor(modelItem => item.IdRamNavigation.Label)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IdReferenceNavigation.Id)
+                @Html.DisplayFor(modelItem => item.IdReferenceNavigation.Label)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

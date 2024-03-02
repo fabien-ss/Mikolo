@@ -47,7 +47,7 @@ namespace mikolo.Controllers.utilisateur
         // GET: Utilisateur/Create
         public IActionResult Create()
         {
-            ViewData["IdPointDeVente"] = new SelectList(_context.PointDeVentes, "Id", "Id");
+            ViewData["IdPointDeVente"] = new SelectList(_context.PointDeVentes, "Id", "Label");
             return View();
         }
 
@@ -81,7 +81,7 @@ namespace mikolo.Controllers.utilisateur
             {
                 return NotFound();
             }
-            ViewData["IdPointDeVente"] = new SelectList(_context.PointDeVentes, "Id", "Id", utilisateur.IdPointDeVente);
+            ViewData["IdPointDeVente"] = new SelectList(_context.PointDeVentes, "Id", "Label", utilisateur.IdPointDeVente);
             return View(utilisateur);
         }
 
@@ -117,7 +117,7 @@ namespace mikolo.Controllers.utilisateur
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdPointDeVente"] = new SelectList(_context.PointDeVentes, "Id", "Id", utilisateur.IdPointDeVente);
+            ViewData["IdPointDeVente"] = new SelectList(_context.PointDeVentes, "Id", "Label", utilisateur.IdPointDeVente);
             return View(utilisateur);
         }
 

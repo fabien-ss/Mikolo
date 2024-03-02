@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7L721fU+DkXthyheA251moqj62wZVng523ky6kPO/4I5tLlZRSo+fpkQ5W9JoXu6hSS5b3fnS8Vw4U1vOYWu4Q==",
+  "dgSpecHash": "NB1V7A7djoQpvDAx5CIpDV1vHcNeieIICKnSbjeImo8OOsYpzQRWGToB6P7i5cjA0pVQD2rZ3A0MeLY2vu8XOQ==",
   "success": true,
   "projectFilePath": "/home/fabien/Documents/dotnet/mikolo/mikolo.csproj",
   "expectedPackageFiles": [
@@ -56,6 +56,7 @@
     "/home/fabien/.nuget/packages/humanizer.core.zh-cn/2.14.1/humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "/home/fabien/.nuget/packages/humanizer.core.zh-hans/2.14.1/humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "/home/fabien/.nuget/packages/humanizer.core.zh-hant/2.14.1/humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "/home/fabien/.nuget/packages/lombok.net/2.3.0/lombok.net.2.3.0.nupkg.sha512",
     "/home/fabien/.nuget/packages/microsoft.aspnetcore.razor.language/6.0.24/microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "/home/fabien/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "/home/fabien/.nuget/packages/microsoft.build/17.7.2/microsoft.build.17.7.2.nupkg.sha512",
@@ -134,6 +135,9 @@
     "/home/fabien/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
     "/home/fabien/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
     "/home/fabien/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "/home/fabien/.nuget/packages/syncfusion.compression.net.core/24.2.8/syncfusion.compression.net.core.24.2.8.nupkg.sha512",
+    "/home/fabien/.nuget/packages/syncfusion.licensing/24.2.8/syncfusion.licensing.24.2.8.nupkg.sha512",
+    "/home/fabien/.nuget/packages/syncfusion.pdf.net.core/24.2.8/syncfusion.pdf.net.core.24.2.8.nupkg.sha512",
     "/home/fabien/.nuget/packages/system.codedom/5.0.0/system.codedom.5.0.0.nupkg.sha512",
     "/home/fabien/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",
     "/home/fabien/.nuget/packages/system.composition/7.0.0/system.composition.7.0.0.nupkg.sha512",

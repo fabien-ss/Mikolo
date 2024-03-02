@@ -11,7 +11,7 @@ namespace mikolo.Controllers
 {
     public class MarqueController : Controller
     {
-        private readonly MikoloContext _context;
+        private MikoloContext _context;
 
         public MarqueController(MikoloContext context)
         {

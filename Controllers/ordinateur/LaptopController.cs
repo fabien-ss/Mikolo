@@ -10,7 +10,7 @@ namespace mikolo
 {
     public class LaptopController : Controller
     {
-        private readonly MikoloContext _context;
+        private MikoloContext _context;
 
         public LaptopController(MikoloContext context)
         {
@@ -50,11 +50,11 @@ namespace mikolo
         // GET: Laptop/Create
         public IActionResult Create()
         {
-            ViewData["IdDisqueDur"] = new SelectList(_context.DisqueDurs, "Id", "Id");
-            ViewData["IdEcran"] = new SelectList(_context.Ecrans, "Id", "Id");
-            ViewData["IdProcesseur"] = new SelectList(_context.Processeurs, "Id", "Id");
-            ViewData["IdRam"] = new SelectList(_context.Rams, "Id", "Id");
-            ViewData["IdReference"] = new SelectList(_context.References, "Id", "Id");
+            ViewData["IdDisqueDur"] = new SelectList(_context.DisqueDurs, "Id", "Label");
+            ViewData["IdEcran"] = new SelectList(_context.Ecrans, "Id", "Label");
+            ViewData["IdProcesseur"] = new SelectList(_context.Processeurs, "Id", "Label");
+            ViewData["IdRam"] = new SelectList(_context.Rams, "Id", "Label");
+            ViewData["IdReference"] = new SelectList(_context.References, "Id", "Label");
             return View();
         }
 
@@ -63,19 +63,23 @@ namespace mikolo
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,IdReference,IdProcesseur,IdRam,IdEcran,IdDisqueDur")] Laptop laptop)
+        public async Task<IActionResult> Create([Bind("IdReference,IdProcesseur,IdRam,IdEcran,IdDisqueDur")] Laptop laptop)
         {
+            Console.WriteLine("Read");
+            Console.WriteLine("json object id proc "+ laptop.IdProcesseur);
+            Console.WriteLine("json object id " + laptop.Id);
             if (ModelState.IsValid)
             {
+                Console.WriteLine("try to insert");
                 _context.Add(laptop);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdDisqueDur"] = new SelectList(_context.DisqueDurs, "Id", "Id", laptop.IdDisqueDur);
-            ViewData["IdEcran"] = new SelectList(_context.Ecrans, "Id", "Id", laptop.IdEcran);
-            ViewData["IdProcesseur"] = new SelectList(_context.Processeurs, "Id", "Id", laptop.IdProcesseur);
-            ViewData["IdRam"] = new SelectList(_context.Rams, "Id", "Id", laptop.IdRam);
-            ViewData["IdReference"] = new SelectList(_context.References, "Id", "Id", laptop.IdReference);
+            ViewData["IdDisqueDur"] = new SelectList(_context.DisqueDurs, "Id", "Label", laptop.IdDisqueDur);
+            ViewData["IdEcran"] = new SelectList(_context.Ecrans, "Id", "Label", laptop.IdEcran);
+            ViewData["IdProcesseur"] = new SelectList(_context.Processeurs, "Id", "Label", laptop.IdProcesseur);
+            ViewData["IdRam"] = new SelectList(_context.Rams, "Id", "Label", laptop.IdRam);
+            ViewData["IdReference"] = new SelectList(_context.References, "Id", "Label", laptop.IdReference);
             return View(laptop);
         }
 
@@ -92,11 +96,11 @@ namespace mikolo
             {
                 return NotFound();
             }
-            ViewData["IdDisqueDur"] = new SelectList(_context.DisqueDurs, "Id", "Id", laptop.IdDisqueDur);
-            ViewData["IdEcran"] = new SelectList(_context.Ecrans, "Id", "Id", laptop.IdEcran);
-            ViewData["IdProcesseur"] = new SelectList(_context.Processeurs, "Id", "Id", laptop.IdProcesseur);
-            ViewData["IdRam"] = new SelectList(_context.Rams, "Id", "Id", laptop.IdRam);
-            ViewData["IdReference"] = new SelectList(_context.References, "Id", "Id", laptop.IdReference);
+            ViewData["IdDisqueDur"] = new SelectList(_context.DisqueDurs, "Id", "Label", laptop.IdDisqueDur);
+            ViewData["IdEcran"] = new SelectList(_context.Ecrans, "Id", "Label", laptop.IdEcran);
+            ViewData["IdProcesseur"] = new SelectList(_context.Processeurs, "Id", "Label", laptop.IdProcesseur);
+            ViewData["IdRam"] = new SelectList(_context.Rams, "Id", "Label", laptop.IdRam);
+            ViewData["IdReference"] = new SelectList(_context.References, "Id", "Label", laptop.IdReference);
             return View(laptop);
         }
 
@@ -132,11 +136,11 @@ namespace mikolo
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdDisqueDur"] = new SelectList(_context.DisqueDurs, "Id", "Id", laptop.IdDisqueDur);
-            ViewData["IdEcran"] = new SelectList(_context.Ecrans, "Id", "Id", laptop.IdEcran);
-            ViewData["IdProcesseur"] = new SelectList(_context.Processeurs, "Id", "Id", laptop.IdProcesseur);
-            ViewData["IdRam"] = new SelectList(_context.Rams, "Id", "Id", laptop.IdRam);
-            ViewData["IdReference"] = new SelectList(_context.References, "Id", "Id", laptop.IdReference);
+            ViewData["IdDisqueDur"] = new SelectList(_context.DisqueDurs, "Id", "Label", laptop.IdDisqueDur);
+            ViewData["IdEcran"] = new SelectList(_context.Ecrans, "Id", "Label", laptop.IdEcran);
+            ViewData["IdProcesseur"] = new SelectList(_context.Processeurs, "Id", "Label", laptop.IdProcesseur);
+            ViewData["IdRam"] = new SelectList(_context.Rams, "Id", "Label", laptop.IdRam);
+            ViewData["IdReference"] = new SelectList(_context.References, "Id", "Label", laptop.IdReference);
             return View(laptop);
         }
 

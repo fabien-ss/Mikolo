@@ -5,7 +5,7 @@ namespace mikolo;
 
 public partial class Marque
 {
-    public string Id { get; set; } = null!;
+    public string? Id { get; set; } 
 
     public string Label { get; set; } = null!;
 
