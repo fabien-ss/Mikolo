@@ -1,0 +1,42 @@
+@model mikolo.DisqueDur
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>DisqueDur</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Label)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Label)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Stockage)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Stockage)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Rotation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Rotation)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Taille)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Taille)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

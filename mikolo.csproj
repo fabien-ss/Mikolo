@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6e06cae1-8be1-4b4d-b70d-3b5917fa7ac8</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.entityframeworkcore" Version="8.0.2" />
+    <PackageReference Include="Microsoft.entityframeworkcore.design" Version="8.0.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.2" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="8.0.2" />
+    <PackageReference Include="Microsoft.entityframeworkcore.tools" Version="8.0.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.UnitTesting" Version="11.0.50727.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
+    <PackageReference Include="npgsql.entityframeworkcore.postgresql" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\utilisateur\" />
+    <Folder Include="Controllers\vente\stock\" />
+    <Folder Include="Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\DisqueDur\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\DisqueDur\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\DisqueDur\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\DisqueDur\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\DisqueDur\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Laptop\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\ordinateur\index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Marque\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Marque\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Marque\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Marque\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Marque\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Processeur\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Processeur\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Processeur\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Processeur\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Processeur\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Ram\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Ram\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Ram\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Ram\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Ram\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Reference\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Reference\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Reference\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Reference\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Reference\Index.cshtml" />
+  </ItemGroup>
+
+</Project>

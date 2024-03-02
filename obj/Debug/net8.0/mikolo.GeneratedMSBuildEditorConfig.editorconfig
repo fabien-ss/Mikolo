@@ -1,0 +1,319 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = mikolo
+build_property.RootNamespace = mikolo
+build_property.ProjectDir = /home/fabien/Documents/dotnet/mikolo/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/fabien/Documents/dotnet/mikolo
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/fabien/Documents/dotnet/mikolo/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/DisqueDur/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcXVlRHVyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/DisqueDur/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcXVlRHVyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/DisqueDur/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcXVlRHVyL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/DisqueDur/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcXVlRHVyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/DisqueDur/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGlzcXVlRHVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ecran/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWNyYW4vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ecran/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWNyYW4vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ecran/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWNyYW4vRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ecran/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWNyYW4vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ecran/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWNyYW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Laptop/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Laptop/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Laptop/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Laptop/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Laptop/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFwdG9wL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Marque/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFycXVlL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Marque/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFycXVlL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Marque/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFycXVlL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Marque/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFycXVlL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Marque/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWFycXVlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Mouvement/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Mouvement/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Mouvement/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Mouvement/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Mouvement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/MouvementPointDeVente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50UG9pbnREZVZlbnRlL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/MouvementPointDeVente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50UG9pbnREZVZlbnRlL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/MouvementPointDeVente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50UG9pbnREZVZlbnRlL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/MouvementPointDeVente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50UG9pbnREZVZlbnRlL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/MouvementPointDeVente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW91dmVtZW50UG9pbnREZVZlbnRlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/PointDeVente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9pbnREZVZlbnRlL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/PointDeVente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9pbnREZVZlbnRlL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/PointDeVente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9pbnREZVZlbnRlL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/PointDeVente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9pbnREZVZlbnRlL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/PointDeVente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUG9pbnREZVZlbnRlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Processeur/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvY2Vzc2V1ci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Processeur/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvY2Vzc2V1ci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Processeur/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvY2Vzc2V1ci9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Processeur/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvY2Vzc2V1ci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Processeur/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvY2Vzc2V1ci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ram/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFtL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ram/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFtL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ram/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFtL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ram/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFtL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Ram/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmFtL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Reference/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Reference/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Reference/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Reference/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Reference/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVmZXJlbmNlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Report/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Report/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Report/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Report/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/ReportPointDeVente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0UG9pbnREZVZlbnRlL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/ReportPointDeVente/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0UG9pbnREZVZlbnRlL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/ReportPointDeVente/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0UG9pbnREZVZlbnRlL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/ReportPointDeVente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0UG9pbnREZVZlbnRlL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/ReportPointDeVente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUmVwb3J0UG9pbnREZVZlbnRlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Utilisateur/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Utilisateur/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Utilisateur/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Utilisateur/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Utilisateur/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXRpbGlzYXRldXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/fabien/Documents/dotnet/mikolo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-i7p0ufsbrm

@@ -1,0 +1,45 @@
+@model mikolo.Processeur
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Processeur</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Label" class="control-label"></label>
+                <input asp-for="Label" class="form-control" />
+                <span asp-validation-for="Label" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Frequence" class="control-label"></label>
+                <input asp-for="Frequence" class="form-control" />
+                <span asp-validation-for="Frequence" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Coeur" class="control-label"></label>
+                <input asp-for="Coeur" class="form-control" />
+                <span asp-validation-for="Coeur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Gravure" class="control-label"></label>
+                <input asp-for="Gravure" class="form-control" />
+                <span asp-validation-for="Gravure" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

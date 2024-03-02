@@ -1,0 +1,10 @@
+create sequence marque_seq;
+create sequence reference_seq;
+create sequence processeur_seq;
+create sequence ram_seq;
+create sequence disque_dur_seq;
+create sequence ecran_seq;
+create sequence laptop_seq;
+create sequence mouvement_seq;
+create sequence utilisateur_seq;
+create sequence point_de_vente_seq;
