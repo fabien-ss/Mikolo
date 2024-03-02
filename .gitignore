@@ -1,2 +1,96 @@
-./bin
-./obj
+# Ignore les fichiers de configuration de Visual Studio
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore les fichiers temporaires et de build
+bin/
+obj/
+
+# Ignore les fichiers de configuration de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore les fichiers de configuration de l'application
+appsettings.json
+appsettings.Development.json
+
+# Ignore les fichiers de cache et les fichiers temporaires
+*.cache
+*.tmp
+*.bak
+*.log
+
+# Ignore les fichiers spécifiques à l'environnement
+*.env
+
+# Ignore les fichiers de configuration de l'environnement de développement
+*.env.development
+
+# Ignore les fichiers spécifiques à l'IDE et au système d'exploitation
+.vs/
+
+# Ignore les fichiers de configuration de l'hôte de l'application
+applicationhost.config
+
+# Ignore les fichiers de configuration de Entity Framework
+*.edmx
+*.edmx.diagram
+*.jfm
+*.ssdl
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore les fichiers spécifiques à l'IDE Visual Studio
+*.vsp
+*.vspscc
+*.vssscc
+*.psess
+*.bak
+*.swp
+*.swo
+*.swn
+*.bak.*
+*.bak_*.tmp
+
+# Ignore les fichiers de configuration de IIS
+*.vspscc
+*.vssscc
+*.psess
+*.bak
+*.swp
+*.swo
+*.swn
+*.bak.*
+*.bak_*.tmp
+
+# Ignore les fichiers de configuration de Git
+.git/
+.gitignore
+
+# Ignore les fichiers de configuration de NPM
+node_modules/
+
+# Ignore les fichiers de configuration de Yarn
+.yarn/
+.yarnrc
+.yarn-integrity
+.yarn-metadata.json
+
+# Ignore les fichiers de configuration de Webpack
+.webpack/
+
+# Ignore les fichiers de configuration de Bower
+.bowerrc
+bower_components/
+
+# Ignore les fichiers de configuration de Grunt
+.grunt/
+
+# Ignore les fichiers de configuration de Gulp
+.gulp/
