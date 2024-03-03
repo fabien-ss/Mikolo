@@ -7,53 +7,66 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="badge badge-primary">Create New</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.IdDisqueDurNavigation.Label)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdEcranNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdProcesseurNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdRamNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IdReferenceNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdDisqueDurNavigation.Label)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdEcranNavigation.Label)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdProcesseurNavigation.Label)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdRamNavigation.Label)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdReferenceNavigation.Label)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container-scroller">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+            <h4 class="card-title">@ViewData["Title"]</h4>
+              <div class="table-responsive">
+                <table class="table table-hover">
+                   <thead>
+                          <tr>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.IdDisqueDurNavigation.Label)
+                              </th>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.IdEcranNavigation)
+                              </th>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.IdProcesseurNavigation)
+                              </th>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.IdRamNavigation)
+                              </th>
+                              <th>
+                                  @Html.DisplayNameFor(model => model.IdReferenceNavigation)
+                              </th>
+                              <th></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                            @foreach (var item in Model) {
+                              <tr>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.IdDisqueDurNavigation.Label)
+                                  </td>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.IdEcranNavigation.Label)
+                                  </td>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.IdProcesseurNavigation.Label)
+                                  </td>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.IdRamNavigation.Label)
+                                  </td>
+                                  <td>
+                                      @Html.DisplayFor(modelItem => item.IdReferenceNavigation.Label)
+                                  </td>
+                                  <td>
+                                      <a asp-action="Edit" class="badge badge-success" asp-route-id="@item.Id">Edit</a> 
+                                      <a asp-action="Details" class="badge badge-info" asp-route-id="@item.Id">Details</a> 
+                                      <a asp-action="Delete" class="badge badge-warning" asp-route-id="@item.Id">Delete</a>
+                                  </td>
+                              </tr>
+                          }
+                      
+                      </tbody>
+                </table>
+              </div>
+        </div>
+      </div>
+    </div>
+    
+</div>
