@@ -61,6 +61,17 @@
     <_ContentIncludedByDefault Remove="Views\Reference\Details.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Reference\Edit.cshtml" />
     <_ContentIncludedByDefault Remove="Views\Reference\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\charts\chartjs.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\forms\basic_elements.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\icons\mdi.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\samples\lock-screen.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\samples\login-2.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\samples\login.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\samples\register-2.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\samples\register.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\tables\basic-table.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\ui-features\buttons.html" />
+    <_ContentIncludedByDefault Remove="wwwroot\pages\ui-features\typography.html" />
   </ItemGroup>
 
 </Project>

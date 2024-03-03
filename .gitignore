@@ -6,6 +6,7 @@
 # Ignore les fichiers temporaires et de build
 bin/
 obj/
+wwwroot/
 
 # Ignore les fichiers de configuration de Visual Studio
 *.suo
