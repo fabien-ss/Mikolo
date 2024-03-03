@@ -205,76 +205,76 @@
       </nav>
       <nav class="bottom-navbar">
         <div class="container">
-            <ul class="nav page-navigation">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">
-                  <i class="mdi mdi-file-document-box menu-icon"></i>
-                  <span class="menu-title">Dashboard</span>
+          <ul class="nav page-navigation">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="mdi mdi-file-document-box menu-icon"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+              <i class="mdi mdi-file-document-box menu-icon"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">
+              <i class="mdi mdi-file-document-box menu-icon"></i>
+                Privacy
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="mdi mdi-codepen menu-icon"></i>
+                Laptop
+                <span class="menu-title">Sample Pages</span>
+                <i class="menu-arrow"></i>
                 </a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="mdi mdi-cube-outline menu-icon"></i>
-                    <span class="menu-title">UI Elements</span>
-                    <i class="menu-arrow"></i>
-                  </a>
                   <div class="submenu">
-                      <ul>
-                          <li class="nav-item"><a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                          <li class="nav-item"><a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
-                      </ul>
+                    <ul class="submenu-item">
+                      <li class="nav-item"><a class="nav-link" asp-controller="Laptop">Laptop</a></li>
+                      <li class="nav-item"><a class="nav-link" asp-controller="Marque">Marque</a></li>
+                      <li class="nav-item"><a class="nav-link" asp-controller="Reference">Reference</a></li>
+                      <li class="nav-item"><a class="nav-link" asp-controller="DisqueDur">Disque dur</a></li>
+                      <li class="nav-item"><a class="nav-link" asp-controller="Ram">Ram</a></li>
+                      <li class="nav-item"><a class="nav-link" asp-controller="Processeur">Processeur</a></li>
+                      <li class="nav-item"><a class="nav-link" asp-controller="Ecran">Ecran</a></li>
+                    </ul>
                   </div>
-              </li>
-              <li class="nav-item">
-                  <a href="pages/forms/basic_elements.html" class="nav-link">
-                    <i class="mdi mdi-chart-areaspline menu-icon"></i>
-                    <span class="menu-title">Form Elements</span>
-                    <i class="menu-arrow"></i>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="pages/charts/chartjs.html" class="nav-link">
-                    <i class="mdi mdi-finance menu-icon"></i>
-                    <span class="menu-title">Charts</span>
-                    <i class="menu-arrow"></i>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="pages/tables/basic-table.html" class="nav-link">
-                    <i class="mdi mdi-grid menu-icon"></i>
-                    <span class="menu-title">Tables</span>
-                    <i class="menu-arrow"></i>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="pages/icons/mdi.html" class="nav-link">
-                    <i class="mdi mdi-emoticon menu-icon"></i>
-                    <span class="menu-title">Icons</span>
-                    <i class="menu-arrow"></i>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link">
-                    <i class="mdi mdi-codepen menu-icon"></i>
-                    <span class="menu-title">Sample Pages</span>
-                    <i class="menu-arrow"></i>
-                  </a>
-                  <div class="submenu">
-                      <ul class="submenu-item">
-                          <li class="nav-item"><a class="nav-link" href="pages/samples/login.html">Login</a></li>
-                          <li class="nav-item"><a class="nav-link" href="pages/samples/login-2.html">Login 2</a></li>
-                          <li class="nav-item"><a class="nav-link" href="pages/samples/register.html">Register</a></li>
-                          <li class="nav-item"><a class="nav-link" href="pages/samples/register-2.html">Register 2</a></li>
-                          <li class="nav-item"><a class="nav-link" href="pages/samples/lock-screen.html">Lockscreen</a></li>
-                      </ul>
-                  </div>
-              </li>
-              <li class="nav-item">
-                  <a href="docs/documentation.html" class="nav-link">
-                    <i class="mdi mdi-file-document-box-outline menu-icon"></i>
-                    <span class="menu-title">Documentation</span></a>
-              </li>
-            </ul>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" asp-area="" asp-controller="Mouvement">
+              <i class="mdi mdi-file-document-box menu-icon"></i>
+                Mouvement
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" asp-area="" asp-controller="MouvementPointDeVente">
+              <i class="mdi mdi-file-document-box menu-icon"></i>
+                Mouvement point de vente
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" asp-area="" asp-controller="PointDeVente">
+              <i class="mdi mdi-file-document-box menu-icon"></i>
+                Point de vente
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" asp-area="" asp-controller="ReportPointDeVente">
+              <i class="mdi mdi-file-document-box menu-icon"></i>
+                Report point de vente
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" asp-area="" asp-controller="Utilisateur">
+              <i class="mdi mdi-file-document-box menu-icon"></i>
+                Utilisateur
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
