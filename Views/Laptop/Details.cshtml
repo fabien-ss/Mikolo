@@ -3,43 +3,146 @@
 @{
     ViewData["Title"] = "Details";
 }
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Kapella Bootstrap Admin Dashboard Template</title>
+  <!-- base:css -->
+  <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <link rel="stylesheet" href="../../vendors/select2/select2.min.css">
+  <link rel="stylesheet" href="../../vendors/select2-bootstrap-theme/select2-bootstrap.min.css">
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/file.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+</head>
 
+<hr />
 <h1>Details</h1>
+<div class="container-fluid page-body-wrapper">
+	<div class="main-panel">
+		<div class="content-wrapper">
+			<div class="row">
+				<div class="col-sm-8 flex-column d-flex stretch-card">
+					<div class="row">
+						<div class="col-lg-4 d-flex grid-margin stretch-card">
+							<div class="card sale-diffrence-border">
+                            	<div class="card-body">
+                            		<h2 class="text-dark mb-2 font-weight-bold">@Html.DisplayFor(model => model.IdDisqueDurNavigation.Label)</h2>
+                            		<h4 class="card-title mb-2">Disque</h4>
+                            		<small class="text-muted">@Html.DisplayFor(model => model.IdDisqueDurNavigation.Id)</small>
+                            	</div>
+                            </div>
+						</div>
+						<div class="col-lg-4 d-flex grid-margin stretch-card">
+							<div class="card sale-diffrence-border">
+								<div class="card-body">
+									<h2 class="text-dark mb-2 font-weight-bold">
+										@Html.DisplayFor(model => model.IdEcranNavigation.Label)
+									</h2>
+									<h4 class="card-title mb-2">Ecran</h4>
+									<small class="text-muted">
+										@Html.DisplayNameFor(model => model.IdEcranNavigation.Id)
+									</small>
 
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 d-flex grid-margin stretch-card">
+							<div class="card sale-visit-statistics-border">
+								<div class="card-body">
+									<h2 class="text-dark mb-2 font-weight-bold">$@Html.DisplayFor(model => model.IdProcesseurNavigation.Label)</h2>
+									<h4 class="card-title mb-2">Processeur</h4>
+									<small class="text-muted">@Html.DisplayFor(model => model.IdProcesseurNavigation.Id)</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="card">
+							<div class="card-body">
+								<img src="https://images.frandroid.com/wp-content/uploads/2023/11/dell-xps-15-ecran.jpeg" width="100%"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4 flex-column d-flex stretch-card">
+				<div class="row flex-grow">
+					<div class="col-sm-12 grid-margin stretch-card">
+						<div class="card">
+					<div class="card-body">
+						<div class="row">
+							<div class="col-lg-8">
+								<h3 class="font-weight-bold text-dark">Disque</h3>
+								<p class="text-dark"> @Html.DisplayFor(model => model.IdDisqueDurNavigation.Label)</p>
+								<div class="d-lg-flex align-items-baseline mb-3">
+									<h1 class="text-dark font-weight-bold">Taille: @Html.DisplayFor(model => model.IdDisqueDurNavigation.Taille)</h1>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-12 mt-4 mt-lg-0">
+								<div class="bg-primary text-white px-4 py-4 card">
+									<div class="row">
+										<div class="col-sm-12 pl-lg-5">
+											<h2>Stockage: @Html.DisplayFor(model => model.IdDisqueDurNavigation.Stockage)</h2>
+											<p class="mb-0">Rotation: @Html.DisplayFor(model => model.IdDisqueDurNavigation.Rotation)</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+			</div>
+		</div>
+	</div>
+</div>
 <div>
     <h4>Laptop</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdDisqueDurNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdDisqueDurNavigation.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdEcranNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdEcranNavigation.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdProcesseurNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdProcesseurNavigation.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdRamNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdRamNavigation.Id)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdReferenceNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdReferenceNavigation.Id)
-        </dd>
+	    
+	    <dt class="col-sm-2">
+		    @Html.DisplayNameFor(model => model.IdDisqueDurNavigation)
+	    </dt>
+	    <dd class="col-sm-10">
+		    @Html.DisplayFor(model => model.IdReferenceNavigation.Label)
+	    </dd>
+	    <dt class="col-sm-2">
+		    @Html.DisplayNameFor(model => model.IdEcranNavigation)
+	    </dt>
+	    <dd class="col-sm-10">
+		    @Html.DisplayFor(model => model.IdEcranNavigation.Id)
+	    </dd>
+	    <dt class="col-sm-2">
+		    @Html.DisplayNameFor(model => model.IdProcesseurNavigation)
+	    </dt>
+	    <dd class="col-sm-10">
+		    @Html.DisplayFor(model => model.IdProcesseurNavigation.Id)
+	    </dd>
+	    <dt class="col-sm-2">
+		    @Html.DisplayNameFor(model => model.IdRamNavigation)
+	    </dt>
+	    <dd class="col-sm-10">
+		    @Html.DisplayFor(model => model.IdRamNavigation.Id)
+	    </dd>
+	    <dt class="col-sm-2">
+		    @Html.DisplayNameFor(model => model.IdReferenceNavigation)
+	    </dt>
+	    <dd class="col-sm-10">
+		    @Html.DisplayFor(model => model.IdReferenceNavigation.Id)
+	    </dd>
     </dl>
 </div>
 <div>
