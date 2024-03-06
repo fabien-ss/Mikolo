@@ -31,6 +31,7 @@
     <Folder Include="Controllers\utilisateur\" />
     <Folder Include="Controllers\vente\stock\" />
     <Folder Include="Models\exception\" />
+    <Folder Include="Views\Shared\footer\" />
   </ItemGroup>
 
   <ItemGroup>
